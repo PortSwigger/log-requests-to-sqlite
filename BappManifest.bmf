@@ -1,13 +1,13 @@
-Uuid: 7f0b64293b3a4b93b5f0afb8585c64f5
+Uuid: d916d94506734f3490e49391595d8747
 ExtensionType: 1
 Name: Log Requests to SQLite
 RepoName: log-requests-to-sqlite
 ScreenVersion: 2.0.1
-SerialVersion: 1
-MinPlatformVersion: 0
+SerialVersion: 9
+MinPlatformVersion: 21
 ProOnly: False
-Author: Redguard
-ShortDescription: This Burp extension records all HTTP requests sent through Burp and saves them to a SQLite database, creating an audit trail. It provides logging options and generates usage statistics.
+Author: Redguard, Dominique Righetto
+ShortDescription: Log every request made by Burp to an SQLite database
 EntryPoint: log-requests-to-sqlite.jar
 BuildCommand: mvn clean install
 SupportedProducts: Pro, Community
